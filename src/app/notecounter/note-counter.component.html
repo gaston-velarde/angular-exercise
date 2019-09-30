@@ -1,0 +1,6 @@
+
+<div *ngIf="(profiles | async)?.length > 0" class="row">
+    <div class="col-lg-8 offset-lg-2">
+        <p>Total Items: {{ (profiles | async)?.length }}</p>
+    </div>
+</div>
